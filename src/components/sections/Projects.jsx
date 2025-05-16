@@ -14,6 +14,7 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Here */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <img src="./mecazon.png" alt="Mecazon" className="mb-8 rounded-xl" />
               <h3 className="text-xl font-bold mb-2">MECAZON</h3>
               <p className="text-gray-400 mb-4">
                 MECAZON is a mock e-commerce platform inspired by Amazon,
@@ -48,7 +49,7 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <img src="./at_at.gif" alt="Walking AT-AT Animation" />
+              <img src="./at_at.gif" alt="Walking AT-AT Animation" className="mb-8 rounded-xl" />
               <h3 className="text-xl font-bold mb-2">
                 AT-AT Walking Animation
               </h3>
@@ -80,9 +81,10 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Paralax Animation</h3>
+              <img src="./parallax.gif" alt="Parallax Animation" className="mb-8 rounded-xl" />
+              <h3 className="text-xl font-bold mb-2">Parallax Animation</h3>
               <p className="text-gray-400 mb-4">
-                A sliding 2D procedural paralax animation built with vanilla
+                A sliding 2D procedural parallax animation built with vanilla
                 JavaScript that uses layered Perlin noise to create moving
                 clouds and dynamic mountain terrain. It combines math and modern
                 rending techniques to generate a smooth, ever-changing
