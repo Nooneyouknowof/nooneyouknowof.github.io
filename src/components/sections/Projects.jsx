@@ -14,7 +14,11 @@ export const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Here */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <img src="./mecazon.png" alt="Mecazon" className="mb-8 rounded-xl" />
+              <img
+                src="./mecazon.png"
+                alt="Mecazon"
+                className="mb-8 rounded-xl"
+              />
               <h3 className="text-xl font-bold mb-2">MECAZON</h3>
               <p className="text-gray-400 mb-4">
                 MECAZON is a mock e-commerce platform inspired by Amazon,
@@ -49,7 +53,11 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <img src="./at_at.gif" alt="Walking AT-AT Animation" className="mb-8 rounded-xl" />
+              <img
+                src="./at_at.gif"
+                alt="Walking AT-AT Animation"
+                className="mb-8 rounded-xl"
+              />
               <h3 className="text-xl font-bold mb-2">
                 AT-AT Walking Animation
               </h3>
@@ -73,7 +81,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Nooneyouknowof/AT-AT-Walking-Animation"
+                  href="https://nooneyouknowof.github.io/AT-AT-Walking-Animation/"
                   className="text-blue-400 hover:text-blue-300 transtition-colors my-4"
                 >
                   View Project →
@@ -81,7 +89,11 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <img src="./parallax.gif" alt="Parallax Animation" className="mb-8 rounded-xl" />
+              <img
+                src="./parallax.gif"
+                alt="Parallax Animation"
+                className="mb-8 rounded-xl"
+              />
               <h3 className="text-xl font-bold mb-2">Parallax Animation</h3>
               <p className="text-gray-400 mb-4">
                 A sliding 2D procedural parallax animation built with vanilla
@@ -103,7 +115,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://mylesinator.github.io/procedural_animation/"
                   className="text-blue-400 hover:text-blue-300 transtition-colors my-4"
                 >
                   View Project →
@@ -111,6 +123,11 @@ export const Projects = () => {
               </div>
             </div>
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <img
+                src="./TrustUS.png"
+                alt="Trust-US Banking"
+                className="mb-8 rounded-xl"
+              />
               <h3 className="text-xl font-bold mb-2">Trust-US Banking</h3>
               <p className="text-gray-400 mb-4">
                 Trust-US is a group project focused on creating a secure and
@@ -132,7 +149,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Levi-G-Duarte/Trust-US/"
                   className="text-blue-400 hover:text-blue-300 transtition-colors my-4"
                 >
                   View Project →
